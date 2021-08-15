@@ -3,6 +3,7 @@
 
 //create an array of playing cards
 const deck = new Array();
+deck
 deck.src = "./playing-cards-assets/png/";
 
 // variables
@@ -15,11 +16,12 @@ const player1Card1 = document.getElementById("player1-card1");
 drawCard.addEventListener("click", () => {
     let randomNum = Math.floor(Math.random() * 6);
     if (randomNum == 1) {
-        player1Card1.src = deck[0];
+        //player1Card1.src = "deck[0]";
+        player1Card1.src = "./playing-cards-assets/png/ace_of_diamonds.png";
     }
 
 });
-        /*player1Card1.src = "./playing-cards-assets/png/ace_of_diamonds.png";*/
+
 
     
 
