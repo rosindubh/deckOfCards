@@ -4,15 +4,19 @@
     padding: 0px;
 }
 
-/*buttons background*/
+.header {
+    background-color: lightslategray;
+    height: 5vh;
+}
+
 .top {
     background-color: lightblue;
-    height: 30vh;
+    height: 40vh;
 }
 
 .middle {
     background-color: lightcoral;
-    height: 55vh;
+    height: 40vh;
 }
 
 .bottom {
