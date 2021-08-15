@@ -3,3 +3,28 @@
     margin: 0px;
     padding: 0px;
 }
+
+/*buttons background*/
+.top {
+    height: 50vh;
+}
+
+button {
+    background-color:green;
+}
+
+.buttons #draw-card {
+    background-color: red;
+    font-size: 50px;;
+    border-radius: 8px;
+    width: 280px;
+}
+
+.buttons #hold {
+    background-color: blue;
+    font-size: 50px;
+    border-radius: 8px;
+    width: 280px;
+}
+
+
