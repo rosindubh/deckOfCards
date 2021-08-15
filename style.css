@@ -6,8 +6,28 @@
 
 /*buttons background*/
 .top {
-    height: 50vh;
+    background-color: lightblue;
+    height: 30vh;
 }
+
+.middle {
+    background-color: lightcoral;
+    height: 55vh;
+}
+
+.bottom {
+    background-color: greenyellow;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 5vh;
+    background-color: lightslategray;
+}
+
 
 button {
     background-color:green;
