@@ -15,8 +15,15 @@
 }
 
 .middle {
-    background-color: lightcoral;
+    background-color: green;
     height: 40vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.player1 {
+    background-color: white;
 }
 
 .bottom {
