@@ -16,6 +16,14 @@
 .top {
     background-color: red;
     height: 40vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.dealer {
+    background-color: white;
+    border-radius: 10px;
 }
 
 .middle {
